@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="unit test framework">
+      <UniqueIdentifier>{01a7eea3-4169-4d2b-b647-1ffdbd1de278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="coordinates">
+      <UniqueIdentifier>{40ac4271-4f31-43d1-b420-ded9b3db62f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="singleton">
+      <UniqueIdentifier>{9e0fec60-c386-42ea-b56b-040c7ea24364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intrudable">
+      <UniqueIdentifier>{7c1ece42-5015-4899-a326-e8936826cec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sparse matrix">
+      <UniqueIdentifier>{2fbd5880-5521-4a5c-a05d-7e0b3991e814}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="unit_tests_framework.cpp">
+      <Filter>unit test framework</Filter>
+    </ClCompile>
+    <ClCompile Include="singleton.cpp">
+      <Filter>singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="file_content_comparator.cpp">
+      <Filter>unit test framework</Filter>
+    </ClCompile>
+    <ClCompile Include="sparse_matrix.cpp">
+      <Filter>sparse matrix</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="unit_tests_framework.hpp">
+      <Filter>unit test framework</Filter>
+    </ClInclude>
+    <ClInclude Include="two_dimensional_coordinate.hpp">
+      <Filter>coordinates</Filter>
+    </ClInclude>
+    <ClInclude Include="dll_interface.hpp" />
+    <ClInclude Include="three_dimensional_coordinate.hpp">
+      <Filter>coordinates</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.hpp">
+      <Filter>singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="intrudable.hpp">
+      <Filter>intrudable</Filter>
+    </ClInclude>
+    <ClInclude Include="file_content_comparator.hpp">
+      <Filter>unit test framework</Filter>
+    </ClInclude>
+    <ClInclude Include="sparse_matrix.hpp">
+      <Filter>sparse matrix</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
